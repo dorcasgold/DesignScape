@@ -4,11 +4,11 @@ import Footer from './components/Footer'
 
 function Layout() {
   return (
-    <>
+    <div className="background-container">
       <Header />
       <Outlet />
       <Footer />
-    </>
+    </div>
   )
 }
 
