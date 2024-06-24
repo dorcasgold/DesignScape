@@ -13,6 +13,20 @@ body {
   font-family: "Playwrite NG Modern", cursive;
 }
 
+.grad {
+  background: #D4D4A9;
+  background: linear-gradient(to right, #D4D4A9 0%, #D467D0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grad2 {
+  background: #BEBAD4;
+  background: linear-gradient(to right, #BEBAD4 0%, #D4BFC1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* styles.css */
 
 /* Ensure the container takes up the full viewport */

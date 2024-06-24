@@ -13,7 +13,7 @@ function Header() {
       <div className="flex justify-between text-gray-300 items-center">
         <div>
           <Link to="/">
-            <h1 className="logo font-semibold  text-gray-400 text-2xl sm:text-3xl">DesignScape</h1>
+            <h1 className="logo font-semibold grad text-gray-400 text-xl sm:text-2xl">DesignScape</h1>
           </Link>
         </div>
         <div>
@@ -40,7 +40,7 @@ function Header() {
         <div className={nav ? 'nav flex flex-col px-5 pt-10 items-center gap-5 text-gray-300 fixed h-full left-0 top-0 w-[60%] border-r-gray-900 bg-[#202121] ease-in-out duration-500' : "fixed left-[-100%]"}>
           <div>
             <Link to="/">
-              <h1 className="logo font-semibold text-2xl sm:text-4xl">DesignScape</h1>
+              <h1 className="logo  grad font-semibold text-2xl sm:text-4xl">DesignScape</h1>
             </Link>
           </div>
           <ul className="flex flex-col gap-8 mt-10">
